@@ -24,6 +24,11 @@ public class Car extends Vehicle {
         this.seats = seats;
     }
 
+    public String getName() {
+        String name = this.name;
+        return name;
+    }
+
     public int getWheels() {
         return wheels;
     }
