@@ -11,6 +11,7 @@ public class Vehicle {
     }
 
     public String getName() {
+        System.out.println("My name is ERwin John");
         return name;
     }
 
